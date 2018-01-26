@@ -1,0 +1,19 @@
+version = "1.0.0.0"
+
+allprojects {
+
+  apply plugin: "java"
+	apply plugin: "eclipse"
+		
+	sourceCompatibility = 1.8
+	targetCompatibility = 1.8
+	
+	repositories {
+		maven {url "D:/Develop/runtimes/maven/repo"}
+		maven {url "http://maven.aliyun.com/nexus/content/groups/public/"}
+		mavenLocal()
+		mavenCentral()
+	}
+	
+	[compileJava, compileTestJava]*.options*.encoding = "UTF-8"
+}

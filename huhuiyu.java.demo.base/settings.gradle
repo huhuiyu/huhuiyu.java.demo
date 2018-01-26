@@ -1,0 +1,7 @@
+include ":huhuiyu.fileutil.demo"
+project(":huhuiyu.fileutil.demo").projectDir = new File(settingsDir, "../huhuiyu.fileutil.demo")
+
+include ":huhuiyu.database.demo"
+project(":huhuiyu.database.demo").projectDir = new File(settingsDir, "../huhuiyu.database.demo")
+
+rootProject.name = "huhuiyu.java.demo.base"

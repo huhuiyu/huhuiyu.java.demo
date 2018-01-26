@@ -1,0 +1,1 @@
+${nameInfo.daoPackageDir}/${nameInfo.daoName}.java

@@ -1,0 +1,7 @@
+version = "1.0.0.0"
+
+dependencies {
+	compile group: "cn.huhuiyu.api.base", name: "huhuiyu.database", version: "1.0.0.0"
+	compile group: "mysql", name: "mysql-connector-java", version: "6.0.6"
+	compile group: "org.apache.commons", name: "commons-dbcp2", version: "2.1.1"
+}

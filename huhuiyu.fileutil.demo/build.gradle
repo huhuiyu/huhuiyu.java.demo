@@ -1,0 +1,5 @@
+version = "1.0.0.0"
+
+dependencies {
+	compile group: "cn.huhuiyu.api.base", name: "huhuiyu.fileutil", version: "1.0.0.0"
+}

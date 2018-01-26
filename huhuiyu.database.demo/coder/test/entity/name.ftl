@@ -1,0 +1,1 @@
+${nameInfo.entityPackageDir}/${nameInfo.entityName}.java
